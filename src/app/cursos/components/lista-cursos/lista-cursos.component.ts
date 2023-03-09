@@ -17,6 +17,7 @@ export class ListaCursosComponent implements OnInit{
   cursos!: Curso[];
   cursos$!: Observable<Curso[]>;
   sesion$!: Observable<Sesion>
+  formulario: any;
 
   constructor(
     private cursoService: CursosService,
